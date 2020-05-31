@@ -31,9 +31,6 @@ Shader "90Hz/Kyrie Shader"
 		_OverlayTextureTiling("Overlay Texture Tiling", Vector) = (0,0,0,0)
 		[Space(5)]
 		_OverlayTextureSpeed("Overlay Texture Speed", Vector) = (0,0,0,0)
-
-		[Space(50)]
-
 		[Header(Flow Effect Settings)]
 		[Toggle]_ToggleFloweffect("Toggle Flow effect", Range( 0 , 1)) = 0
 		[Space(5)]
